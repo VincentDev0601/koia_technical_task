@@ -13,6 +13,7 @@ import { getDefaultFilterData, HouseTypes } from './config/filter';
 
 import './App.css';
 
+
 function generateSearchParams(filters: FilterData): URLSearchParams {
   return new URLSearchParams({
     from: `${filters!.from.year}K${filters!.from.quartal}`,
